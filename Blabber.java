@@ -51,7 +51,7 @@ public class Blabber {
                         cursorTop("No parameters given for selected command\nPlease try again", 2500);
                         break;
                     case "TooMany":
-                        cursorTop("Toomany parameters given\nPlease stay to `<command> <arg>`",2500);
+                        cursorTop("Too many parameters given\nPlease stay to `<command> <arg>`",2500);
                         break;
                     default:
                         cursorTop("Invalid command",2500);
