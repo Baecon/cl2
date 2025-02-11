@@ -34,7 +34,7 @@ $hiddenMessage = "meow :3"
 
 # this will be the name of the image you use as the wallpaper
 
-$ImageName = "meowers"
+$ImageName = "haii^o^"
 
 #############################################################################################################################################
 
